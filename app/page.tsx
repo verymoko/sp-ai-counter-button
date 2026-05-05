@@ -12,7 +12,7 @@ export default function Home() {
         
         <button
           onClick={() => setCount(count + 1)}
-          className="w-[300px] h-[64px] rounded-xl bg-stone-700 text-white shadow-lg transition-all hover:bg-stone-800 active:scale-95 flex items-center justify-center font-semibold text-lg"
+          className="w-[300px] h-[64px] rounded-xl bg-stone-700 text-white shadow-lg transition-all hover:bg-stone-900 active:scale-95 flex items-center justify-center font-semibold text-lg"
         >
           Меня нажали {count} {plural(count, 'раз', 'раза', 'раз')}
         </button>
